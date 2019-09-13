@@ -534,8 +534,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 @media (max-width: 320px){
   iframe {
-    width: 260px;
-    height: 240px;
+    width: 240px;
+    height: 300px;
   }
 }
 
