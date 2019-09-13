@@ -346,9 +346,6 @@ hr.light-100 {
   font-family: sans-serif;
 }
 
-.zoom {
-  /* font-size: 45px; */
-}
 
 
 
@@ -427,7 +424,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   .contact-inner textarea {
     font-size: 16px;
   }
-
+  
 }
 
 @media (max-width: 768px){
@@ -435,6 +432,19 @@ Extra (xl) large devices (large desktops, 1200px and up)
     width: 33%;
     margin: 0 auto;
   }
+
+  .contact-inner > div {
+    text-align: center;
+  }
+
+  .contact-input {
+    padding-top: 0!important;
+  }
+
+  .last-text {
+    padding-bottom: 0!important;
+  }
+
 }
 
 
@@ -446,17 +456,47 @@ Extra (xl) large devices (large desktops, 1200px and up)
 }
 
 @media (max-width: 576px){
+  .caption h1 {
+    font-size: 2rem;
+  }
+
+  .caption h3 {
+    font-size: 1.4rem;
+  }
+
+  .btn-lg {
+    padding: .4rem 1rem;
+  }
+
+  .display-4 {
+    font-size: 34px;
+  }
+
+  .iframe {
+    padding-top: 1rem!important;
+  }
+
+  .social > a {
+    padding: 0!important;
+  }
+
+
+  iframe {
+    width: 300px;
+    height: 300px;
+  }
+
   .faq {
     width: 100%;
   }
 
-  .contact-inner h2 {
+  /* .contact-inner h2 {
     font-size: 13px;
-  }
+  } */
 
-  .contact-type {
+  /* .contact-type {
     font-size: 10px;
-  }
+  } */
 
   .contact-inner input {
     font-size: 13px;
@@ -477,6 +517,17 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
   .zoom {
     font-size: 45px;
+  }
+
+}
+
+@media (max-width: 375px){
+  body {
+    max-width: 375px;
+  }
+
+  .copy {
+    font-size: 10px;
   }
 
 }
